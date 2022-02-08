@@ -13,7 +13,7 @@ https://user-images.githubusercontent.com/6533636/152991571-cb60c27f-321c-41c4-a
 
 **Workaround**:
 
-Now edit `cypress-issue.html` - change:
+Edit `cypress-issue.html` - change:
 ```
 :root {
     scroll-behavior: smooth;
@@ -34,4 +34,5 @@ https://user-images.githubusercontent.com/6533636/152991593-dd5e1659-c6ea-4ce5-a
 Alternatively, leave `scroll-behavior: smooth` and downgrade Cypress to 6.7.0 (the highest working version). 
 
 **More info**
+
 Reproduced on Windows 10, Node 16.13.1 and on all browsers - Chrome 97, Firefox 96 and Electron 94.
